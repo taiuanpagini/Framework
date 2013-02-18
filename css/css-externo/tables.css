@@ -1,0 +1,43 @@
+@charset "utf-8";
+table {
+	width: 100%;
+	height: auto;
+	border: 1px solid #FFF;
+	text-align: left;
+	margin: 0 0 20px 0;
+}
+table tr.titulo-tabela {
+	font-weight: bold;
+}
+table td {
+	border: 1px solid #CCC;
+	height: 3em;
+	padding: 0 0 0 10px;
+}
+table.border-bottom td {
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid #CCC;
+	border-left: none;
+}
+table.no-border td {
+	border: none;
+}
+.table-striped tbody > tr:nth-child(2n+2) > td,
+.table-striped tbody > tr:nth-child(2n+2) > th {
+	background: #E6F2FF;
+}
+tr.success {
+	background: #DFF0D8;
+}
+tr.error {
+	background: #F2DEDE;
+}
+tr.warning {
+	background: #FCF8E3;
+}
+tr.info {
+	background: #D9EDF7;
+}
+
+

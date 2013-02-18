@@ -1,0 +1,392 @@
+@charset "utf-8";
+/**** forms ****/
+
+/*********** input label em cima ************/
+
+.input-small {
+	width: 35%;
+}
+.input-normal {
+	width: 65%;
+}
+.input-large {
+	width: 92%;
+}
+.input-small,
+.input-normal,
+.input-large {
+	height: 3em;
+	margin: 0 0 0 20px;
+	padding: 0 0 0 10px;
+	font-size: 0.875em;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #F9F9F9;
+}
+.input-small:focus,
+.input-normal:focus,
+.input-large:focus {
+	color: #333;
+	border: 1px solid #0CF;
+	background: #FFF;
+}
+.label-big {
+	width: 100%;
+	height: auto;
+	float: left;
+	color: #666;
+	margin: 20px 0 0 20px;
+}
+
+/*********** checkbox inline ***************/
+
+.check-line {
+	width: auto;
+	min-height: 20px;
+    padding-right: 20px;
+	font-size: 0.875em;
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.check-line input[type=checkbox] {
+	margin: 0 10px 0 0;
+}
+
+/*********** checkbox block ***************/
+
+.check-block {
+	width: 100%;
+	display: block;
+	margin: 5px 0 10px 20px;
+	float: left;
+	font-size: 0.875em;
+	line-height: 20px;
+	font-weight: normal;
+}
+.check-block input[type=checkbox] {
+	margin: 0 10px 0 0;
+}
+
+/*********** radio button inline ***************/
+
+.radio-line {
+	width: 25%;
+	min-height: 20px;
+    padding-right: 20px;
+	font-size: 0.875em;
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.radio-line input[type=radio] {
+	margin: 0 10px 0 0;
+}
+
+/*********** radio button block ***************/
+
+.radio-block {
+	width: 100%;
+	display: block;
+	margin: 5px 0 10px 20px;
+	float: left;
+	font-size: 0.875em;
+	line-height: 20px;
+	font-weight: normal;
+}
+.radio-block input[type=radio] {
+	margin: 0 10px 0 0;
+}
+
+/*********** input label ao lado ************/
+
+.input-small-label {
+	width: 60%;
+}
+.input-normal-label {
+	width: 65%;
+}
+.input-large-label {
+	width: 72%;
+}
+.input-small-label,
+.input-normal-label,
+.input-large-label {
+	height: 3em;
+	margin: 0 0 20px 20px;
+	padding: 0 0 0 10px;
+	float: left;
+	font-size: 0.875em;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #F9F9F9;
+}
+.input-small-label:focus,
+.input-normal-label:focus,
+.input-large-label:focus {
+	color: #333;
+	border: 1px solid #0CF;
+	background: #FFF;
+}
+.label-min {
+	width: 15%;
+	height: 2.8em;
+	line-height: 2.8em;
+	float: left;
+	color: #666;
+	margin: 0 10px 0 20px;
+}
+.input-small-line {
+	width: 25%;
+	height: 3em;
+	float: left;
+	margin: 0 0 20px 20px;
+	padding: 0 0 0 10px;
+	font-size: 0.875em;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #F9F9F9;
+}
+
+/*********** select block ***************/
+
+.select-small {
+	width: 30%;
+	height: 2.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+}
+.select-normal {
+	width: 70%;
+	height: 2.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+}
+.select-large {
+	width: 95%;
+	height: 2.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+}
+
+/*********** select block ***************/
+
+.select-small-line {
+	width: 60%;
+	height: 2.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+	float: left;
+}
+.select-normal-line {
+	width: 70%;
+	height: 2.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+	float: left;
+}
+.select-large-line {
+	width: 76%;
+	height: 2.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+	float: left;
+}
+
+/*********** select multiple ***************/
+
+.select-small-multiple {
+	width: 60%;
+	height: 4.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+	float: left;
+}
+.select-normal-multiple {
+	width: 70%;
+	height: 4.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+	float: left;
+}
+.select-large-multiple {
+	width: 76%;
+	height: 4.3em;
+	margin: 10px 0 10px 20px;
+	padding: 7px;
+	color: #666;
+	outline: none;
+	border: 1px solid #0CF;
+	background: #FFF;
+	float: left;
+}
+.alert {
+	width: 94%;
+	height: 3em;
+	line-height: 3em;
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 0 0 0 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	background: #EFEFEF;
+	color:#666;
+	position: relative;
+}
+.alert-success {
+	background: #DFF0D8;
+	color: #468847;
+}
+.alert-warning {
+	background: #FCF8E3;
+	color: #C7AC16;
+}
+.alert-error {
+	background: #F2DEDE;
+	color: #BD5757;
+}
+.alert-information {
+	background: #D9EDF7;
+	color: #43A8D8;
+}
+
+/*********** fechar alert *******************/
+
+.close {
+	width: 16px;
+	height: 16px;
+	background: url(../../img/close.png) center right no-repeat;
+	position: absolute;
+	border: none;
+	right: 10px;
+	top: 15px;
+}
+
+/*********** menu horizontal *******************/
+
+.menu-horizontal {
+	width: 92%;
+	height: auto;
+	padding: 0;
+	list-style: none;
+	background: #EFEFEF;
+	padding: 5px 10px;
+	float: left;
+	margin: 20px 0 0 20px; /*retirar margin top após colocar no template*/
+}
+.menu-horizontal li {
+	float: left;
+	padding: 5px 7px;
+	position: relative;
+}
+.menu-horizontal li a {
+	float: left;
+	padding: 5px 8px;
+	text-decoration: none;
+	color: #333;
+}
+.menu-horizontal li a:hover {
+	color: #0CF;
+}
+.menu-horizontal li > ul {
+	width: 200px;
+	position: absolute;
+	list-style: none;
+	background: #EFEFEF;
+	margin: 0;
+	padding: 0;
+	top: 40px;
+}
+.menu-horizontal li > ul li a {
+	width: 100%;
+	float: left;
+	color: #333 !important;
+}
+.menu-horizontal li > ul li a:hover {
+	color: #0CF !important;
+}
+
+/*********** menu vertical *******************/
+
+.menu-vertical {
+	width: 12%;
+	height: auto;
+	padding: 0;
+	list-style: none;
+	background: #EFEFEF;
+	padding: 5px 10px;
+	float: left;
+	margin: 20px 0 0 20px;/*retirar margin top após colocar no template*/
+}
+.menu-vertical li {
+	padding: 5px 7px;
+	position: relative;
+}
+.menu-vertical li a {
+	padding: 5px 8px;
+	text-decoration: none;
+	color: #333;
+}
+.menu-vertical li a:hover {
+	color: #0CF;
+}
+.menu-vertical li > ul {
+	width: 200px;
+	position: absolute;
+	list-style: none;
+	background: #EFEFEF;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 90px;
+}
+.menu-vertical li > ul li a {
+	width: 100%;
+	float: left;
+	color: #333 !important;
+}
+.menu-vertical li > ul li a:hover {
+	color: #0CF !important;
+}
+
+/********** menu ativo ***********/
+
+.menu-ativo {
+	color: #0CF;
+}
+.menu-ativo a{
+	color: #0CF !important;
+}

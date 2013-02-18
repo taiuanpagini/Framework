@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Framework Zeend</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+		
+        <link href="favicon.png" rel="icon" type="image/png" />
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/chamadas.css">
+        <link rel="stylesheet" href="../css/main.css">
+        
+        <!-- comentários no código -->
+        <link type="text/css" rel="stylesheet" href="../css/shCore.css"/>
+		<link type="text/css" rel="Stylesheet" href="../css/shThemeDefault.css" />
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+		<header>
+        	<section class="content-limit">
+            	<nav class="menu-principal">
+                	<ul>
+                    	<li><a href="/">Home</a></li>
+                    	<li><a href="/document">Documentation</a></li>                        
+                        <li><a href="/grid">Grid System</a></li>
+                        <li><a href="/typography">Typography</a></li>
+                        <li><a href="/tables">Tables</a></li>
+                        <li><a href="/forms">Forms</a></li>
+                        <li><a href="/buttons">Buttons</a></li>
+                    </ul>
+                </nav><!-- fim nav menu principal -->
+                <a href="/"><h1 class="esc-logo">Zeend &trade;</h1></a><!-- fim class esc-logo -->
+            </section><!-- fim section content-limit -->
+        </header><!-- fim header -->
+        
+        <main>        	
+            <section class="content-limit">
+            	<aside class="menu-lateral">
+                    <ul>
+                        <li><a href="#label-block" class="anchorLink">Input</a></li>
+                        <li><a href="#check-line" class="anchorLink">Checkbox</a></li>
+                        <li><a href="#radio-line" class="anchorLink">Rádio Button</a></li>
+                        <li><a href="#select" class="anchorLink">Select</a></li>
+                        <li><a href="#alerts" class="anchorLink">Alerts</a></li>
+                    </ul>
+                </aside>
+                <section class="content-limit-700">
+                    <h2 class="titulo">Forms</h2>
+                    <section class="linha-white">
+                        <!-- label inline -->
+                        <label class="label-big" id="label-block">Label</label>
+                        <input type="text" class="input-small" placeholder="mini input placeholder" />
+                        <label class="label-big">Label</label>
+                        <input type="text" class="input-normal" placeholder="normal input placeholder" />
+                        <label class="label-big">Label</label>
+                        <input type="text" class="input-large" placeholder="large input placeholder" />
+                    </section> 
+                    <pre name="code" class="groovy">
+                        <label class="label-big" id="label-block">Label</label>
+                        <input type="text" class="input-small" placeholder="mini input placeholder" />
+                        <label class="label-big">Label</label>
+                        <input type="text" class="input-normal" placeholder="normal input placeholde" />
+                        <label class="label-big">Label</label>
+                        <input type="text" class="input-large" placeholder="large input placeholder" />
+                    </pre>                 
+                    <section class="linha-white-180">    
+                        <!-- label left -->
+                        <label class="label-min">Label</label>
+                        <input type="text" class="input-small-label" />
+                        <label class="label-min">Label</label>
+                        <input type="text" class="input-normal-label" />
+                        <label class="label-min">Label</label>
+                        <input type="text" class="input-large-label" />
+                    </section>
+                    <pre name="code" class="groovy">
+                        <input type="text" class="input-small-label" />
+                        <label class="label-min">Label</label>
+                        <input type="text" class="input-normal-label" />
+                        <label class="label-min">Label</label>
+                        <input type="text" class="input-large-label" />
+                    </pre>
+                    <section class="linha-white-50">    
+                        <!-- label left -->
+                        <input type="text" placeholder="email" class="input-small-line" />
+                        <input type="password" placeholder="password" class="input-small-line" />
+                        <label class="check-line">
+                            <input type="checkbox">Remember - me
+                        </label>
+                        <input type="button" class="btn-success btn-small" value="Enviar" />
+                    </section>
+                    <pre name="code" class="groovy">
+                        <input type="text" placeholder="email" class="input-small-line" />
+                        <input type="password" placeholder="password" class="input-small-line" />
+                        <label class="check-line">
+                            <input type="checkbox">Remember - me
+                        </label>
+                        <input type="button" class="btn-success btn-small" value="Enviar" />
+                    </pre>
+                    <section class="linha-white-80">
+                        <!-- checkbox inline -->
+                        <label class="label-big" id="check-line">Checkbox Inline</label>
+                        <label class="check-line">
+                            <input type="checkbox">Check Inline 1
+                        </label>
+                        <label class="check-line">
+                            <input type="checkbox">Check Inline 2
+                        </label>
+                        <label class="check-line">
+                            <input type="checkbox">Check Inline 3
+                        </label>
+                    </section>
+                    <pre name="code" class="groovy">
+                        <label class="check-line">
+                            <input type="checkbox">Check Inline 1
+                        </label>
+                        <label class="check-line">
+                            <input type="checkbox">Check Inline 2
+                        </label>
+                        <label class="check-line">
+                            <input type="checkbox">Check Inline 3
+                        </label>
+                    </pre>
+                    <section class="linha-white-210">                        
+                        <!-- checkbox Block -->
+                        <label class="label-big">Checkbox Block</label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 1
+                        </label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 2
+                        </label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 3
+                        </label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 4
+                        </label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 5
+                        </label>
+                    </section>
+                    <pre name="code" class="groovy">
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 1
+                        </label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 2
+                        </label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 3
+                        </label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 4
+                        </label>
+                        <label class="check-block">
+                            <input type="checkbox">Check Block 5
+                        </label>
+                    </pre>
+                    <section class="linha-white-80">   
+                        <!-- radio inline -->
+                        <label class="label-big" id="radio-line">Rádio Button Inline</label>
+                        <label class="radio-line">
+                            <input type="radio">Rádio Inline 1
+                        </label>
+                        <label class="radio-line">
+                            <input type="radio">Rádio Inline 2
+                        </label>
+                        <label class="radio-line">
+                            <input type="radio">Rádio Inline 3
+                        </label>
+                    </section>
+                    <pre name="code" class="groovy">
+                        <label class="radio-line">
+                            <input type="radio">Rádio Inline 1
+                        </label>
+                        <label class="radio-line">
+                            <input type="radio">Rádio Inline 2
+                        </label>
+                        <label class="radio-line">
+                            <input type="radio">Rádio Inline 3
+                        </label>
+                    </pre>
+                    <section class="linha-white-210">
+                        <!-- radio Block -->
+                        <label class="label-big margin-align">Rádio Button Block</label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 1
+                        </label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 2
+                        </label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 3
+                        </label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 4
+                        </label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 5
+                        </label>
+                    </section>                    
+                    <pre name="code" class="groovy">
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 1
+                        </label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 2
+                        </label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 3
+                        </label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 4
+                        </label>
+                        <label class="radio-block">
+                            <input type="radio">Rádio Block 5
+                        </label>
+                    </pre>
+                    <!-- select label inline -->
+                    <section class="linha-white-340">
+                        <!-- select Block -->
+                        <label class="label-big" id="select">Select Block</label>
+                        <label class="label-big">Label</label>
+                        <select class="select-small">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-big">Label</label>
+                        <select class="select-normal">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-big">Label</label>
+                        <select class="select-large">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                    </section>                    
+                    <pre name="code" class="groovy">
+                        <label class="label-big">Label</label>
+                        <select class="select-small">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-big">Label</label>
+                        <select class="select-normal">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-big">Label</label>
+                        <select class="select-large">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                    </pre>
+                    
+                    <!-- select label left -->
+                    <section class="linha-white-210">
+                        <!-- radio Block -->
+                        <label class="label-big" id="select">Select Inline</label>
+                        <label class="label-min">Label</label>
+                        <select class="select-small-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-min">Label</label>
+                        <select class="select-normal-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-min">Label</label>
+                        <select class="select-large-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                    </section>                    
+                    <pre name="code" class="groovy">
+                        <label class="label-min">Label</label>
+                        <select class="select-small-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-min">Label</label>
+                        <select class="select-normal-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-min">Label</label>
+                        <select class="select-large-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                    </pre>
+                    
+                    <!-- select multiple -->
+                    <section class="linha-white-310">
+                        <!-- radio Block -->
+                        <label class="label-big" id="select">Select Multiple</label>
+                        <label class="label-min">Label</label>
+                        <select multiple class="select-small-multiple">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-min">Label</label>
+                        <select multiple class="select-normal-multiple">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-min">Label</label>
+                        <select multiple class="select-large-multiple">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                    </section>                    
+                    <pre name="code" class="groovy">
+                        <label class="label-min">Label</label>
+                        <select class="select-small-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-min">Label</label>
+                        <select class="select-normal-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                        <label class="label-min">Label</label>
+                        <select class="select-large-line">
+                        	<option>1</option>
+                        	<option>2</option>
+                        	<option>3</option>
+                        	<option>4</option>
+                        </select>
+                    </pre>
+                    
+                    <!-- alerts -->
+                    <section class="linha-white-45">
+                        <span class="alert">
+                        	Default!
+                        	<a href="#" class="close"></a>
+                        </span>
+                    </section>  
+                    <pre name="code" class="groovy">
+                        <span class="alert">
+                        	Default!
+                        	<a href="#" class="close"></a>
+                        </span>
+                        <script type="text/javascript">
+							$(document).ready(function() {
+								$(".close").click(function(){
+									$(this).parent().hide();
+								});
+							});
+						</script>
+                    </pre>
+                    
+                    <section class="linha-white-45">
+                        <span class="alert alert-success">
+                        	Success!
+                        	<a href="#" class="close"></a>
+                        </span>
+                    </section>  
+                    <pre name="code" class="groovy">
+                        <span class="alert alert-success">
+                        	Success!
+                        	<a href="#" class="close"></a>
+                        </span>
+                        <script type="text/javascript">
+							$(document).ready(function() {
+								$(".close").click(function(){
+									$(this).parent().hide();
+								});
+							});
+						</script>
+                    </pre>
+                    
+                    <section class="linha-white-45">
+                        <span class="alert alert-warning">
+                        	Warning!
+                        	<a href="#" class="close"></a>
+                        </span>
+                    </section>  
+                    <pre name="code" class="groovy">
+                        <span class="alert alert-warning">
+                        	Warning!
+                        	<a href="#" class="close"></a>
+                        </span>
+                    </pre>
+                    
+                    <section class="linha-white-45">
+                        <span class="alert alert-error">
+                        	Error!
+                        	<a href="#" class="close"></a>
+                        </span>
+                    </section>  
+                    <pre name="code" class="groovy">
+                        <span class="alert alert-error">
+                        	Error!
+                        	<a href="#" class="close"></a>
+                        </span>
+                    </pre>
+                    
+                    <section class="linha-white-45">
+                        <span class="alert alert-information">
+                        	Information!
+                        	<a href="#" class="close"></a>
+                        </span>
+                    </section>                    
+                    <pre name="code" class="groovy">
+                        <span class="alert alert-information">
+                        	Information!
+                        	<a href="#" class="close"></a>
+                        </span>
+                    </pre>
+                   	<h2 class="titulo-nav">Navbar</h2>
+                    <section class="linha-white-80">
+                    	<ul class="menu-horizontal btn-radius"><!-- deixar a class btn-radius apenas se quiser efeito arredondado nas bordas -->
+                        	<li><a href="#">Item 1</a></li>
+                        	<li><a href="#">Item 2</a>
+                            	<ul class="btn-radius">
+                                	<li><a href="#">&rsaquo;Sub Item 1</a></li>
+                                	<li><a href="#">&rsaquo;Sub Item 2</a></li>
+                                	<li><a href="#">&rsaquo;Sub Item 3</a></li>
+                                	<li><a href="#">&rsaquo;Sub Item 4</a></li>
+                                </ul>
+                            </li>
+                        	<li><a href="#">Item 3</a></li>
+                        	<li><a href="#">Item 4</a></li>
+                        	<li><a href="#">Item 5</a></li>
+                        	<li><a href="#">Item 6</a></li>
+                        </ul><!-- menu horizontal -->
+                    </section><!-- fim section class linha-white -->
+                    <section class="linha-white-210">
+                    	<ul class="menu-vertical btn-radius">
+                        	<li><a href="#">Item 1</a></li>
+                        	<li><a href="#">Item 2</a>
+                            	<ul class="btn-radius">
+                                	<li><a href="#">&rsaquo;Sub Item 1</a></li>
+                                	<li><a href="#">&rsaquo;Sub Item 2</a></li>
+                                	<li><a href="#">&rsaquo;Sub Item 3</a></li>
+                                	<li><a href="#">&rsaquo;Sub Item 4</a></li>
+                                </ul>
+                            </li>
+                        	<li><a href="#">Item 3</a></li>
+                        	<li><a href="#">Item 4</a></li>
+                        	<li><a href="#">Item 5</a></li>
+                        	<li><a href="#">Item 6</a></li>
+                        </ul><!-- menu horizontal -->
+                    </section><!-- fim section class linha-white -->                    
+                </section><!-- fim section content-limit-700 -->
+            </section><!-- fim section class content-limit tables -->
+        </main><!-- fim main -->
+        
+        <footer>
+        	<section class="content-limit">
+            	<h6>
+                	Design and Development by Taiuan pagini <br> 
+                    <a href="https://twitter.com/taiuan_pagini" target="_blank" class="twitter">@taiuan_pagini</a> 
+                    <a href="http://twitter.com/ruffoleonardo" target="_blank" class="twitter2">@ruffoleonardo</a>
+                </h6>
+            </section><!-- fim section content-limit -->
+        </footer>   <!-- fim footer -->     
+        
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+        
+        <!-- function close alert -->
+		<script type="text/javascript" src="../js/vendor/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript">
+			$(document).ready(function() {
+				//botão de fechar alert
+				$(".close").click(function(){
+					$(this).parent().hide();
+				});
+				
+				//menu dropdown horizontal
+				$(".menu-horizontal li ul").hide();
+				$('.menu-horizontal li').hover( 
+					function() {
+						$(this).children('ul').slideDown();
+						$(this).attr('class', 'menu-ativo');
+					},
+					function() {
+						$(this).children('ul').stop(true, true).slideUp();
+						$(this).attr('class', '');
+					}
+				);
+				
+				//menu dropdown vertical
+				$(".menu-vertical li ul").hide();
+				$('.menu-vertical li').hover( 
+					function() {
+						$(this).children('ul').slideDown();
+						$(this).attr('class', 'menu-ativo');
+					},
+					function() {
+						$(this).children('ul').stop(true, true).slideUp();
+						$(this).attr('class', '');
+					}
+				);
+			});
+		</script>
+        
+        <!-- menu fixo no topo -->
+		<script src="../js/easing.js" type="text/javascript"></script>
+		<script src="../js/jquery.ui.totop.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {                
+                $().UItoTop({ easingType: 'easeOutQuart' });                
+				
+				jQuery.fn.fixe = function(settings){
+						var $this = this;
+						var $offset = $this.offset();
+						var $topo = $offset.top;
+						//console.log($topo);
+						
+					var conf = {
+								debug: false,
+								posicaoParada : $topo
+				
+							};
+					if (settings){jQuery.extend(conf, settings);}
+					
+						
+						
+						$(window).scroll(function(){
+						if(conf.debug == true){
+						console.log($(this).scrollTop());
+						}
+						
+					if($(this).scrollTop() > conf.posicaoParada){
+						$this.css({'position':'fixed', 'top':'0px'});
+					}
+					
+					if($(this).scrollTop() < conf.posicaoParada){
+						$this.css({'position':'relative', 'top':'0px'});
+					}
+				});
+				};
+				
+				$(document).ready(function(){
+				$('.teste').fixe();
+				});
+            });
+		</script>
+        
+        <!-- ancora com jquery -->
+		<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="../js/jquery.plusanchor.js"></script>
+		<script type="text/javascript">
+        	$(document).ready(function() {
+                $('body').plusAnchor({
+					easing: 'easeInOutExpo',
+					offsetTop: -55,
+					speed: 1000,
+						onInit: function( base ) {
+			
+							if ( base.initHash != '' && $(base.initHash).length > 0 ) {
+				
+								window.location.hash = 'hash_' + base.initHash.substring(1);
+				
+								window.scrollTo(0, 0);
+				
+								$(window).load( function() {
+				
+									timer = setTimeout(function() {
+				
+										$(base.scrollEl).animate({
+											scrollTop: $( base.initHash ).offset().top
+				
+										}, base.options.speed, base.options.easing);
+									}, 2000); // setTimeout
+				
+								}); // window.load
+							}; // if window.location.hash
+				
+						} // onInit
+				});
+            });
+        </script>
+        
+        <!-- comentário dos códigos -->
+        <script type="text/javascript" src="../js/XRegExp.js"></script> <!-- XRegExp is bundled with the final shCore.js during build -->
+		<script type="text/javascript" src="../js/shCore.js"></script>
+		<script type="text/javascript" src="../js/shLegacy.js"></script>
+		<script type="text/javascript" src="../js/shBrushGroovy.js"></script>
+        <script type="text/javascript">
+			SyntaxHighlighter.config.clipboardSwf = 'Scripts/clipboard.swf';
+			dp.SyntaxHighlighter.HighlightAll('code');
+		</script>
+    </body>
+</html>

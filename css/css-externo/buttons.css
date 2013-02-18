@@ -1,0 +1,75 @@
+@charset "utf-8";
+.content-button {
+	padding: 20px;
+}
+.btn-mini {
+	padding: 5px 10px;
+	border: none;
+	font-size: 0.755em;
+	margin: 0 0 0 10px; /* retirar quando colocar no template do site */
+}
+.btn-small {
+	padding: 12px 15px 13px 15px;
+	border: none;
+}
+.btn-normal {
+	padding: 15px 20px;
+	border: none;
+	font-size: 1em;
+}
+.btn-large {
+	padding: 20px 25px;
+	border: none;
+	font-size: 1.1em;
+}
+.btn-primary {
+	background: #026AAE;
+	color: #FFF;
+}
+.btn-primary:hover {
+	background: #015A96;
+	color: #FFF;
+}
+.btn-secondary {
+	background: #E1E1E1;
+	color: #666;
+}
+.btn-secondary:hover {
+	background: #CDCDCD;
+	color: #666;
+}
+.btn-success {
+	background: #62C462;
+	color: #FFF;
+}
+.btn-success:hover {
+	background: #51A351;
+	color: #FFF;
+}
+.btn-error {
+	background: #FF0000;
+	color: #FFF;
+}
+.btn-error:hover {
+	background: #CC0005;
+	color: #FFF;
+}
+.btn-radius {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+.btn-rounded {
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-khtml-border-radius: 30px;
+}
+.titulo-button {
+	margin: 0;
+	padding: 0;
+	font-size: 0.775em;
+}
+
+

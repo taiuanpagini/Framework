@@ -1,0 +1,88 @@
+@charset "utf-8";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: #666;
+	margin: 20px 0;
+	padding: 0;
+}
+.linha-white h1,
+.linha-white h2,
+.linha-white h3,
+.linha-white h4,
+.linha-white h5,
+.linha-white h6,
+.linha-white p {
+	width: 98%;
+	color: #666;
+	padding: 10px 0 10px 10px;
+	margin: 0;	
+}
+p.normal {
+	color: #666;
+}
+p.muted {
+	color: #999;
+}
+p.text-warning {
+	color: #E3DB31;
+}
+p.text-error {
+	color: #E1060C;
+}
+p.text-info {
+	color: #36F;
+}
+p.text-sucess {
+	color: #5AC157;
+}
+p.small {
+	font-size: 0.825em;
+}
+p.bold {
+	font-weight: bold;
+}
+p.italic {
+	font-style: italic;
+}
+p.bold-italic {
+	font-weight: bold;
+	font-style: italic;
+}
+address {
+	padding: 10px 0 10px 10px;
+	color: #666;
+	display: block;
+}
+address a {
+	color: #2689E1;
+}
+blockquote {
+	padding: 10px 0 10px 10px;
+	display: block;
+	color: #666;
+}
+.linha-white blockquote p {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+blockquote.block-right {
+	padding: 10px 0 10px 10px;
+	display: block;
+	color: #666;
+	text-align: right;
+}
+ul,
+ol {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.no-styled {
+	list-style: none;
+}

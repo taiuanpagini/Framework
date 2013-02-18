@@ -1,0 +1,113 @@
+@charset "utf-8";
+/**** grid system ****/
+
+.col1 {
+	width: 6.5%; /* 65 / 1000 = 0,065 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col2 {
+	width: 15%; /* 150 / 1000 = 0,15 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col3 {
+	width: 23.5%; /* 235 / 1000 = 0,235 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col4 {
+	width: 32%; /* 320 / 1000 = 0,32 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col5 {
+	width: 41%; /* 410 / 1000 = 0,41 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col6 {
+	width: 49%; /* 490 / 1000 = 0.49 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col7 {
+	width: 57%; /* 320 / 1000 = 0,57 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col8 {
+	width: 66%; /* 660 / 1000 = 0,66 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col9 {
+	width: 74.5%; /* 745 / 1000 = 0,745 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col10 {
+	width: 83%; /* 830 / 1000 = 0,83 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col11 {
+	width: 91.5%; /* 915 / 1000 = 0,915 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.col12 {
+	width: 100%; /* 1000 / 1000 = 1 */
+	height: 4.0625em; /* 65 / 16 = 4,0625 */
+	background: #FFF;
+	line-height: 4.0625em;
+	text-align: center;
+	float: left;
+	margin: 0;
+}
+
+
